@@ -1,4 +1,5 @@
-*{outline: 1px solid #770;}
+0{outline: 1px solid #770;}
+.separator{outline: 0;}
 /* icones fa
  * FB : facebook-f
  * TW : twitter
@@ -14,6 +15,11 @@
     BASE
    ===================================================== */
 
+[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 body {
     background-color: #fefefe;
     font-family: 'district_prothin';
@@ -24,9 +30,20 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin: 0;
     font-family: 'baron_neueregular';
 }
 
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+/* [ style des paragraphes] */
 p {
     font-size: 1.7em;
     margin: 0;
@@ -35,6 +52,13 @@ p {
 .dark-bloc p {
     text-align: center;
 }
+
+.book-description p {
+    margin: 8px 0;
+    font-size: 1.4em;
+}
+
+/* [ /style des paragraphes] */
 
 .dark-bloc {
     color: #fefefe;
@@ -93,6 +117,17 @@ header {
     background-image: url(../images/bg3.gif);
 }
 
+.book {
+    position: relative;
+    background-color: #202326;
+}
+
+.book img {
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+}
+
 /* =====================================================
     ELEMENTS
    ===================================================== */
@@ -100,4 +135,29 @@ header {
 .social-icons {
     margin-top: 85px;
     text-align: center;
+}
+
+.separator {
+    width: 175px;
+    height: 4px;
+    margin: 25px 0 120px 0;
+    background-color: #202326;
+}
+
+button {
+    height: 60px;
+    margin: 15px 30px 15px 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #fefefe;
+    border: 3px solid #202326;
+}
+
+button:hover {
+    color: #fefefe;
+    background-color: #202326;
+}
+
+.book-bloc {
+    margin: 100px 0;
 }
