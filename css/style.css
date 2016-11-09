@@ -100,6 +100,7 @@ header {
    ===================================================== */
 
 .illustration {
+    background-attachment: fixed;
     background-size: cover;
     background-position: center 0;
 }
