@@ -112,6 +112,7 @@ header {
 
 #bg2 {
     background-image: url(../images/bg2.jpg);
+    height: 100vh;
 }
 
 #bg3 {
