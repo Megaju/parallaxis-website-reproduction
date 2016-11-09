@@ -160,6 +160,17 @@ button:hover {
     background-color: #202326;
 }
 
+.btn-blog { /* capitalize pour ce bouton uniquement */
+    text-transform: capitalize;
+}
+
+/* --- section presentation des livres */
 .book-bloc {
     margin: 100px 0;
+}
+
+/* --- blog */
+.blog .col-md-4 {
+    padding: 30px!important;
+    border: 4px solid #202326;
 }
