@@ -1,3 +1,4 @@
+*{outline: 1px solid #770;}
 /* icones fa
  * FB : facebook-f
  * TW : twitter
@@ -9,3 +10,94 @@
  * blue : #428BCA
  */
 
+/* =====================================================
+    BASE
+   ===================================================== */
+
+body {
+    background-color: #fefefe;
+    font-family: 'district_prothin';
+}
+
+section {
+    padding: 175px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'baron_neueregular';
+}
+
+p {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.dark-bloc p {
+    text-align: center;
+}
+
+.dark-bloc {
+    color: #fefefe;
+    background-color: #202326;
+}
+.shine-bloc {
+    color: #202326;
+    background-color: #fefefe;
+}
+
+/* =====================================================
+    HEADER
+   ===================================================== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+#logo {
+    width: 222px;
+    height: 224px;
+    background-image: url(../images/logo.png);
+}
+
+#arrow-down {
+    display: block;
+    width: 22px;
+    height: 15px;
+    filter: invert(100%);
+    background-image: url(../images/chevron-down.png);
+}
+
+/* =====================================================
+    ILLUSTRATIONS
+   ===================================================== */
+
+.illustration {
+    background-size: cover;
+    background-position: center 0;
+}
+
+#bg1 {
+    background-image: url(../images/bg.gif);
+    background-position: center -255px;
+}
+
+#bg2 {
+    background-image: url(../images/bg2.jpg);
+}
+
+#bg3 {
+    background-image: url(../images/bg3.gif);
+}
+
+/* =====================================================
+    ELEMENTS
+   ===================================================== */
+
+.social-icons {
+    margin-top: 85px;
+    text-align: center;
+}
