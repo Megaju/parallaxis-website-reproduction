@@ -59,7 +59,6 @@ p {
 }
 
 /* [ /style des paragraphes] */
-
 .dark-bloc {
     color: #fefefe;
     background-color: #202326;
@@ -117,6 +116,7 @@ header {
 
 #bg3 {
     background-image: url(../images/bg3.gif);
+    height: 800px;
 }
 
 .book {
@@ -170,9 +170,6 @@ button:hover {
 }
 
 /* --- blog */
-.blog button {
-    margin-top: 60px;
-}
 
 .blog-bloc {
     position: relative;
@@ -202,6 +199,10 @@ button:hover {
     font-family: 'baron_neueregular';
 }
 
+.btn-blog {
+    margin-top: 60px;
+}
+
 .crow {
     margin: 60px 0;
     text-align: center;
@@ -226,10 +227,6 @@ button:hover {
     background-color: #202326;
     z-index: -1;
 }
-
-
-
-
 
 /* =====================================================
     IMPORTANS!
