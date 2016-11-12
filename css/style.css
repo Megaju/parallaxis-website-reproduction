@@ -146,6 +146,10 @@ header {
     background-color: #202326;
 }
 
+.dark-bloc .separator {
+    background-color: #fefefe;
+}
+
 button {
     height: 60px;
     margin: 15px 30px 15px 0;
@@ -170,7 +174,6 @@ button:hover {
 }
 
 /* --- blog */
-
 .blog-bloc {
     position: relative;
     height: 400px;
@@ -226,6 +229,20 @@ button:hover {
     margin: 0 auto;
     background-color: #202326;
     z-index: -1;
+}
+
+/* --- team */
+.team img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 75px auto;
+    text-align: center;
+}
+
+.member p:last-child {
+    font-size: 1.4em;
+    margin-top: 60px;
+    margin-bottom: 220px;
 }
 
 /* =====================================================
