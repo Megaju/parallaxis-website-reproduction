@@ -170,7 +170,71 @@ button:hover {
 }
 
 /* --- blog */
-.blog .col-md-4 {
+.blog button {
+    margin-top: 60px;
+}
+
+.blog-bloc {
+    position: relative;
+    height: 400px;
     padding: 30px!important;
-    border: 4px solid #202326;
+    border: 6px solid #202326;
+}
+
+.blog-bloc h2 {
+    font-size: 1.3em;
+    margin-bottom: 50px;
+}
+
+.blog-bloc p {
+    height: 200px;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+.blog-bloc a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #202326;
+    font-family: 'baron_neueregular';
+}
+
+.crow {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.crow h2 {
+    margin-top: 60px;
+    font-size: 3.4em;
+}
+
+.crow a {
+    font-size: 3.4em;
+    color: #202326;
+}
+
+.crow-line {
+    position: relative;
+    bottom: 45px;
+    width: 33%;
+    height: 6px;
+    margin: 0 auto;
+    background-color: #202326;
+    z-index: -1;
+}
+
+
+
+
+
+/* =====================================================
+    IMPORTANS!
+   ===================================================== */
+
+.p0-30 {
+    padding: 0 30px !important;
 }
