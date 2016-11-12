@@ -173,26 +173,34 @@ button:hover {
     margin: 100px 0;
 }
 
-/* --- blog */
-.blog-bloc {
+/* --- blog + contact */
+.box {
     position: relative;
     height: 400px;
     padding: 30px!important;
     border: 6px solid #202326;
 }
 
-.blog-bloc h2 {
+.box h2 {
     font-size: 1.3em;
     margin-bottom: 50px;
 }
 
-.blog-bloc p {
+.box p {
     height: 200px;
     font-size: 1.2em;
     overflow: hidden;
 }
 
-.blog-bloc a {
+.contact .box p { /* > p dans la section contact */
+    height: auto;
+}
+
+.contact .box {
+    margin-bottom: 50px;
+}
+
+.box a {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -231,6 +239,20 @@ button:hover {
     z-index: -1;
 }
 
+.mail {
+    font-weight: 700;
+}
+
+.social {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.social button {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* --- team */
 .team img {
     width: 400px;
@@ -251,4 +273,9 @@ button:hover {
 
 .p0-30 {
     padding: 0 30px !important;
+}
+
+.credit {
+    margin-top: 145px;
+    color: #202326;
 }
