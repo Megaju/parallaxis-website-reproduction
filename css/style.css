@@ -11,6 +11,10 @@
  * blue : #428BCA
  */
 
+/*pour les inclinaisons, utliser : skew
+   ex > transform: skewX(15deg);
+   ex > transform: skewX(15deg) skewY(15deg);*/
+
 /* =====================================================
     BASE
    ===================================================== */
@@ -265,6 +269,39 @@ button:hover {
     font-size: 1.4em;
     margin-top: 60px;
     margin-bottom: 220px;
+}
+
+/* =====================================================
+    BLOCS DE BIAIS
+   ===================================================== */
+
+section {
+    position: relative !important;
+}
+
+[class*="biais-"] {
+    position: relative;
+    height: 150px;
+    /*outline: 1px solid orange;*/
+    z-index: 2;
+}
+
+[class*="-rotate-right"] {
+    transform: skewY(3deg);
+    top: 300px;
+}
+
+[class*="-rotate-left"] {
+    transform: skewY(-3deg);
+    bottom: 270px;   
+}
+
+#bg2 [class*="-rotate-right"] {
+    top: 550px;
+}
+
+#bg3 [class*="-rotate-right"] {
+    top: 400px;
 }
 
 /* =====================================================
