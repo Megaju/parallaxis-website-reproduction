@@ -98,17 +98,17 @@
         
         // book n°3
         $('#anim-book-2').css({
-                "transition":".8s",
-                "position":"relative",    
-                "top":"400px",    
-                "opacity":"0"    
-            });
-            $('#book-img-2').css({
-                "transition":".8s",
-                "position":"relative",    
-                "left":"100%",    
-                "opacity":"0"    
-            });
+            "transition":".8s",
+            "position":"relative",    
+            "top":"400px",    
+            "opacity":"0"    
+        });
+        $('#book-img-2').css({
+            "transition":".8s",
+            "position":"relative",    
+            "left":"100%",    
+            "opacity":"0"    
+        });
         $('#book-n-2').on('inview', function(event, isInView) {
             if (isInView) {
                 $('#anim-book-2').css({  
@@ -129,17 +129,17 @@
         
         // book n°4
         $('#anim-book-3').css({
-                "transition":".8s",
-                "position":"relative",    
-                "top":"400px",    
-                "opacity":"0"    
-            });
-            $('#book-img-3').css({
-                "transition":".8s",
-                "position":"relative",    
-                "left":"100%",    
-                "opacity":"0"    
-            });
+            "transition":".8s",
+            "position":"relative",    
+            "top":"400px",    
+            "opacity":"0"    
+        });
+        $('#book-img-3').css({
+            "transition":".8s",
+            "position":"relative",    
+            "left":"100%",    
+            "opacity":"0"    
+        });
         $('#book-n-3').on('inview', function(event, isInView) {
             if (isInView) {
                 $('#anim-book-3').css({  
@@ -160,17 +160,17 @@
         
         // book n°5
         $('#anim-book-4').css({
-                "transition":".8s",
-                "position":"relative",    
-                "top":"400px",    
-                "opacity":"0"    
-            });
-            $('#book-img-4').css({
-                "transition":".8s",
-                "position":"relative",    
-                "left":"100%",    
-                "opacity":"0"    
-            });
+            "transition":".8s",
+            "position":"relative",    
+            "top":"400px",    
+            "opacity":"0"    
+        });
+        $('#book-img-4').css({
+            "transition":".8s",
+            "position":"relative",    
+            "left":"100%",    
+            "opacity":"0"    
+        });
         $('#book-n-4').on('inview', function(event, isInView) {
             if (isInView) {
                 $('#anim-book-4').css({  
@@ -186,7 +186,51 @@
                     "opacity":"1"    
                 });
             } 
-            $('#book-n-4').off('inview');
+             
         });
         
+        // logos
+        $('#logo-left').css({
+            "transition":".8s",
+            "position":"relative",    
+            "right":"400px",    
+            "opacity":"0"    
+        });
+        $('#logo-middle').css({
+            "transition":".8s",
+            "position":"relative",    
+            "bottom":"400px",    
+            "opacity":"0"    
+        });
+        $('#logo-right').css({
+            "transition":".8s",
+            "position":"relative",    
+            "left":"400px",    
+            "opacity":"0"    
+        });
+        $('#logo-left').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('#logo-left').css({  
+                    "right":"0",    
+                    "opacity":"1"    
+                });
+            }  
+        });
+        $('#logo-middle').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('#logo-middle').css({  
+                    "bottom":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+        $('#logo-right').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('#logo-right').css({  
+                    "left":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+
     });
