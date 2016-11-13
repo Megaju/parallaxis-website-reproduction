@@ -27,6 +27,7 @@
 body {
     background-color: #fefefe;
     font-family: 'district_prothin';
+    overflow-x: hidden;
 }
 
 section {
