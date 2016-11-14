@@ -197,7 +197,7 @@ button:hover {
     overflow: hidden;
 }
 
-.contact .box p { /* > p dans la section contact */
+.contact .box, .contact .box p { /* > p dans la section contact */
     height: auto;
 }
 
@@ -309,8 +309,16 @@ section {
     IMPORTANS!
    ===================================================== */
 
-.p0-30 {
-    padding: 0 30px !important;
+.m0-15-0-0 {
+    margin: 0 15px 0 0;
+}
+
+.m0-15 {
+    margin: 0 15px !important;
+}
+
+.m0-0-0-15 {
+    margin: 0 0 0 15px;
 }
 
 .credit {
