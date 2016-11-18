@@ -33,6 +33,78 @@
             });
         };
         
+        // H2
+        $('.h2-1').css({
+           "transition":".4s",
+            "position":"relative",    
+            "top":"100px",    
+            "opacity":"0"
+        });
+        $('.h2-1').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('.h2-1').css({  
+                    "top":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+         $('.h2-2').css({
+           "transition":".4s",
+            "position":"relative",    
+            "top":"100px",    
+            "opacity":"0"
+        });
+        $('.h2-2').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('.h2-2').css({  
+                    "top":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+         $('.h2-3').css({
+           "transition":".4s",
+            "position":"relative",    
+            "top":"100px",    
+            "opacity":"0"
+        });
+        $('.h2-3').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('.h2-3').css({  
+                    "top":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+         $('.h2-4').css({
+           "transition":".4s",
+            "position":"relative",    
+            "top":"100px",    
+            "opacity":"0"
+        });
+        $('.h2-4').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('.h2-4').css({  
+                    "top":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+        $('.h2-5').css({
+           "transition":".4s",
+            "position":"relative",    
+            "top":"100px",    
+            "opacity":"0"
+        });
+        $('.h2-51').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('.h2-5').css({  
+                    "top":"0",    
+                    "opacity":"1"    
+                });
+            } 
+        });
+        
         // BOOK SECTION
         // book n°1
         $('#anim-book-0').css({
