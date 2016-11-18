@@ -232,5 +232,20 @@
                 });
             } 
         });
-
+        
+        // blog
+        $('#blog-anim').css({
+            "transition":".8s",
+            "position":"relative",
+            "bottom":"400px",
+            "opacity":"0"
+        });
+        $('#blog').on('inview', function(event, isInView) {
+            if (isInView) {
+                $('#blog-anim').css({
+                    "bottom":"0",
+                    "opacity":"1"
+                });
+            }
+        });
     });
